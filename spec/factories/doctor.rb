@@ -1,5 +1,5 @@
 FactoryBot.define do
-  factory :user do
+  factory :doctor do
     first_name { "John" }
     last_name  { "Doe" }
     title { "Dr" }
