@@ -18,8 +18,9 @@ ActiveRecord::Schema[7.1].define(version: 2023_12_12_133450) do
     t.string "first_name"
     t.string "last_name"
     t.string "title"
-    t.string "mobile_number"
     t.text "description"
+    t.string "email"
+    t.string "mobile_number"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
